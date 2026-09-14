@@ -401,7 +401,7 @@
 
   <script>
     const CONFIG = { WhatsApp: "https://wa.me/5544998639131" };
-    document.querySelectorAll('[data-instagram]').forEach(el => el.href = CONFIG.Whatsapp);
+    document.querySelectorAll('[data-instagram]').forEach(el => el.href = CONFIG.WhatsApp);
     const header=document.getElementById('header');
     const waFloat=document.getElementById('waFloat');
     const onScroll=()=>{header.classList.toggle('scrolled',scrollY>18);waFloat.classList.toggle('show',scrollY>420)};
