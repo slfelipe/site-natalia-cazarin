@@ -175,6 +175,34 @@
     .footer-info{font-size:.76rem;color:#77736d;max-width:720px}
     .footer-links{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;font-size:.78rem;color:#aaa69e}
     .footer-links a:hover{color:var(--gold-light)}
+    .footer-contact {
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.footer-contact h3 {
+  font-family:'Playfair Display',serif;
+  font-size:1rem;
+  color:var(--gold-light);
+  margin-bottom:5px;
+}
+
+.footer-contact a {
+  color:#aaa69e;
+  font-size:.8rem;
+  transition:.2s;
+}
+
+.footer-contact a:hover {
+  color:var(--gold-light);
+}
+
+.footer-details {
+  font-size:.72rem;
+  color:#77736d;
+  margin-top:2px;
+}
 
     /* whatsapp float */
     .wa-float{position:fixed;right:18px;bottom:18px;z-index:40;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#4a4947;color:#fff;box-shadow:0 10px 24px rgba(0,0,0,.28);opacity:0;transform:translateY(10px);pointer-events:none;transition:.25s}
@@ -387,24 +415,39 @@
     </section>
   </main>
 
- <div class="footer-info">
+<footer>
+  <div class="wrap footer-row">
+
+    <div class="footer-brand">
+      <img src="Natalia_files/mark_fsl.svg" alt="">
+      <div>
+        <strong>Natália Cazarin</strong>
+        <div class="footer-details">Cível • Criminal</div>
+        <div class="footer-details">OAB/PR 136.652</div>
+      </div>
+    </div>
+
+    <div class="footer-contact">
+      <h3>Entre em contato</h3>
+
+      <a href="mailto:cazarin.advocacia@outlook.com">
+        ✉ &nbsp; cazarin.advocacia@outlook.com
+      </a>
+
+      <a href="https://wa.me/5544998639131" target="_blank" rel="noopener">
+        ◉ &nbsp; WhatsApp
+      </a>
+
+      <a href="https://www.instagram.com/nataliacazarin.adv/" target="_blank" rel="noopener">
+        ◎ &nbsp; @nataliacazarin.adv
+      </a>
+    </div>
+
+    <div class="footer-info">
       <div>© <span id="year">2026</span> Natália Cazarin · Advocacia.</div>
       <div>Conteúdo de caráter informativo e sem promessa de resultado.</div>
     </div>
 
-    <div class="footer-links">
-      <a href="mailto:cazarin.advocacia@outlook.com">
-        E-mail
-      </a>
-
-      <a href="https://wa.me/5544998639131" target="_blank" rel="noopener">
-        WhatsApp
-      </a>
-
-      <a href="https://www.instagram.com/nataliacazarin.adv/" target="_blank" rel="noopener">
-        Instagram
-      </a>
-    </div>
   </div>
 </footer>
 
